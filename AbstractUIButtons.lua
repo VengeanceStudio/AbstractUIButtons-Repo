@@ -253,7 +253,7 @@ local function CreateButtonUI()
     Container.bg = Container:CreateTexture(nil, "BACKGROUND"); Container.bg:SetAllPoints()
     Container:RegisterForDrag("LeftButton")
     
-    Container:SetScript("OnDragStart", function(self) if not GetCfg().locked and not InCombatLockdown() then self:StartMoving() end end)
+    Container:SetScript("OnDragStart", function(self) if (not GetCfg().locked or IsAltKeyDown()) and not InCombatLockdown() then self:StartMoving() end end)
     Container:SetScript("OnDragStop", function(self) self:StopMovingOrSizing(); local p, _, _, x, y = self:GetPoint(); GetCfg().pos = {p, x, y} end)
     
     -- Right Click on Empty Space -> Open Options
@@ -269,7 +269,7 @@ local function CreateButtonUI()
         btn.text:SetPoint("CENTER"); btn.text:SetText(textStr)
     end
     
-    local labels, macros = {"R", "E", "L"}, {"/reload", "/quit", "/logout"}
+    local labels, macros = {"R", "E", "L"}, {"/reload", "/editmode", "/logout"}
     for i = 1, 3 do
         local b = CreateFrame("Button", "MDSecureBtn_"..i, Container, "SecureActionButtonTemplate")
         
