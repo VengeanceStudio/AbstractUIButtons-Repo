@@ -2,7 +2,7 @@
 ## Title: Abstract UI Buttons
 ## Notes: A minimalist tray for Reload, Quit, Logout, and Addon Management with Profile support.
 ## Author: VengeanceStudio
-## Version: 12.0.7.2
+## Version: 12.0.7.3
 ## SavedVariables: AbstractUIButtonsDB
 
 AbstractUIButtons.lua
