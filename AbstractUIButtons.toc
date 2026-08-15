@@ -1,11 +1,11 @@
-## Interface: 120007, 120005
+## Interface: 120100
 ## Title: Abstract UI Buttons
 ## Notes: A minimalist tray for Reload, Quit, Logout, and Addon Management with Profile support.
 ## Category: Interface Enhancements
 ## Author: VengeanceStudio
 ## X-Website: https://github.com/VengeanceStudio/AbstractUIButtons
 ## X-Curse-Project-ID: 1575651
-## Version: 12.0.7.8
+## Version: 12.1.0.1
 ## IconTexture: Interface\AddOns\AbstractUIButtons\icon.png
 ## SavedVariables: AbstractUIButtonsDB
 
