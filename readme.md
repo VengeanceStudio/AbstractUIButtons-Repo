@@ -1,8 +1,10 @@
-# Abstract UI Buttons (v12.0.7.4)
+# Abstract UI Buttons
 
-![WoW Version](https://img.shields.io/badge/WoW-12.0-blue.svg) ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![WoW Version](https://img.shields.io/badge/WoW-12.1.0-blue.svg) ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
-A minimalist and highly customizable button tray addon for World of Warcraft, providing quick access to essential game functions like Reload UI, Edit Mode, Logout, and Addon Management.
+**AbstractUIButtons** is a minimalist and highly customizable button tray addon for World of Warcraft, providing quick access to essential game functions like Reload UI, Edit Mode, Logout, and Addon Management.
+
+**Version:** 12.1.0.2 | **Author:** Vengeance
 
 ## ✨ Key Features
 

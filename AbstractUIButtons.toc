@@ -5,7 +5,7 @@
 ## Author: VengeanceStudio
 ## X-Website: https://github.com/VengeanceStudio/AbstractUIButtons
 ## X-Curse-Project-ID: 1575651
-## Version: 12.1.0.2
+## Version: 12.1.0.3
 ## IconTexture: Interface\AddOns\AbstractUIButtons\icon.png
 ## SavedVariables: AbstractUIButtonsDB
 
